@@ -12,7 +12,7 @@ servers = File.read("../template/servers.json")
 ca = File.read("../static/ca.crt")
 client = File.read("../static/cert.crt")
 client_key = File.read("../static/cert.key")
-tls_wrap = read_tls_wrap("crypt", 1, "../static/ta.key", 4, 20)
+tls_wrap = read_tls_wrap("crypt", 1, "../static/ta.key", 4)
 
 cfg = {
     ca: ca,

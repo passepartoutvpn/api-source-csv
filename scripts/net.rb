@@ -47,8 +47,8 @@ presets = [
 
 defaults = {
     :username => "UK123456",
-    :pool => "GB",
-    :preset => "recommended"
+    :pool => "u13uk",
+    :preset => "default"
 }
 
 ###
